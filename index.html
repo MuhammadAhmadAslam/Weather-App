@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="Assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+    <div id="navbar">
+        <h1>Weaher ForeCaster</h1>
+    </div>
+
+
+    <div class="container first-container">
+        <div class="search-div row">
+            <input type="text" class="col-lg-9 col-sm-8" placeholder="Enter a City Name" id="search-bar" value="Karachi">
+            <button id="search" class="col-lg-3 col-sm-4">Search</button>
+        </div>
+
+        <div class="container second-container">
+            <div class="city-name-div"><h1 id="cityName">Karachi</h1><i class="fa-solid fa-location-dot" style="font-size: 25px; padding-bottom: 10px; padding-left: 10px;"></i></div>
+            <div class="date"><h4 id="date"></h4></div>
+            <div class="temprature-div row">
+                <div class="left-div col-sm-12 col-lg-6 col-md-6">
+                    <img src="" id="icon" alt="">
+                    <h2 id="temp"></h2>
+                </div>
+                <div class="rightdiv col-sm-12 col-lg-6 col-md-6">
+                    <p id="feelsLike"> </p>
+                    <p id="main"></p>
+                    <p id="desc"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="footer">
+        <h1>Copy Right © 2024 Made By <a href="github.com/MuhammadAhmadAslam"><span>Muhammad Ahmed</span></a></h1>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="Assets/app.js"></script>
+</body>
+
+</html>
